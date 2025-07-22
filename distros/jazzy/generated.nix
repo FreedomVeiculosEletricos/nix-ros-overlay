@@ -460,6 +460,8 @@ self: super: {
 
  controller-interface = self.callPackage ./controller-interface {};
 
+ controller-manager = self.callPackage ./controller-manager {};
+
  controller-manager-msgs = self.callPackage ./controller-manager-msgs {};
 
  costmap-queue = self.callPackage ./costmap-queue {};
